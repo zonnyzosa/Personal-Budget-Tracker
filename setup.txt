@@ -1,0 +1,24 @@
+Create a virtual enviroment
+python3 -m venv venv
+
+Activate virtual enviroment
+source venv/bin/activate
+
+python3 run.py
+
+
+flask run
+
+
+Create a DB
+python3
+>>> from app import app, db
+>>> with app.app_context():
+...     db.create_all()
+... 
+>>> exit()
+
+
+
+
+https://chatgpt.com/c/064c454d-21d4-436b-8187-bd393edf2d3f
